@@ -65,12 +65,41 @@ def triangle_5(x,y,a,b): #purple
 
 def triangle_6(x, y, a):
     # TODO (Revtova.L) Draw triangle
+    up()
+    setposition(x, y)
+    down()
+    right(90)
+    forward(a)
+    right(90)
+    forward(a)
+    right(135)
+    forward(a * (math.sqrt(2)))
 
 def square_2(x, y, a):
     # TODO (Revtova.L) Draw square
+    up()
+    setposition(x, y)
+    down()
+    right(360)
+    forward(a)
+    right(90)
+    forward(a)
+    right(90)
+    forward(a)
+    right(90)
+    forward(a)
 
 def triangle_7(x, y, a, b):
     # TODO (Revtova.L) Draw triangle
+    up()
+    setposition(x, y)
+    down()
+    right(90)
+    forward(2 * a)
+    right(135)
+    forward(b)
+    right(135)
+    forward(a)
 
 def parallelogram_1(x, y, a, b):
     # TODO (Nikitina.A) Draw parallelogram
@@ -130,5 +159,19 @@ def main():
     #turtle.begin_fill()
     #triangle_2(25, 75, 25 * math.sqrt(2), 50)
     #turtle.end_fill()
-    
+
+    #LIDA REVTOVA DEF MAIN
+#fillcolor("blue")
+#begin_fill()
+#triangle_1(100, 50, 50)
+#end_fill()
+#fillcolor("orange")
+#begin_fill()
+#square_1(50, 50, 25 * math.sqrt(2))
+#end_fill()
+#fillcolor("purple")
+#begin_fill()
+#triangle_5(50, 50, 25 * math.sqrt(2), 50)
+#end_fill()
+#turtle.done()
 main()
