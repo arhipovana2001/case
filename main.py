@@ -72,7 +72,11 @@ def square_2(x, y, a):
 def triangle_7(x, y, a, b):
     # TODO (Revtova.L) Draw triangle
 
+def parallelogram_1(x, y, a, b):
+    # TODO (Nikitina.A) Draw parallelogram
 
+def triangle_8(x, y, a, b):
+    # TODO (Nikitina.A) Draw triangle
 
 def main():
         turtle.fillcolor("red")
