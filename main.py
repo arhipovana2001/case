@@ -125,8 +125,50 @@ def rabbit():
     right(225)
     triangle_3(37.5 * math.sqrt(2),-87.5*math.sqrt(2)-50*math.sqrt(2)/3,50,25*math.sqrt(2))
     end_fill()
-    done()
 rabbit()
+
+def fish():
+    fillcolor("red")
+    begin_fill()
+    right(45)
+    triangle_3(-200,0,100, 50 * math.sqrt(2))
+    end_fill()
+    fillcolor("orange")
+    begin_fill()
+    right(90)
+    square_2(-200-50*math.sqrt(2)/3*2,0, 25*math.sqrt(2))
+    end_fill()
+    fillcolor("yellow")
+    begin_fill()
+    right(45)
+    triangle_3(-200-50*math.sqrt(2),-50*math.sqrt(2), 100, 50 * math.sqrt(2))
+    end_fill()
+    fillcolor("blue")
+    begin_fill()
+    right(45)
+    triangle_3(-200,-25,50 * math.sqrt(2),50)
+    end_fill()
+    fillcolor("green")
+    begin_fill()
+    right(45)
+    parallelogram_1(-200-50*math.sqrt(2)/3*2,0,25 * math.sqrt(2),50)
+    end_fill()
+    fillcolor("pink")
+    begin_fill()
+    right(45)
+    triangle_3(-200-50*math.sqrt(2)/3*2,0, 50,25*math.sqrt(2))
+    end_fill()
+    fillcolor("purple")
+    begin_fill()
+    right(270)
+    triangle_3(-247-50* math.sqrt(2),-25* math.sqrt(2),50,25 *math.sqrt(2))
+    end_fill()
+    done()
+
+fish()
+
+
+
 
 
 
