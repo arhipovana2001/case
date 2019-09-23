@@ -5,6 +5,7 @@
 
 import turtle
 import math
+from import turtle*
 
 def triangle_1(x, y, a): #blue
     turtle.up()
